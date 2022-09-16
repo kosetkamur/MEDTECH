@@ -1,0 +1,9 @@
+.block{
+    width: 250px;
+    height: auto;
+    border: 1px solid #ededed;
+    margin: 20px 0;
+}
+.weekday{
+    color:#eca603;
+}

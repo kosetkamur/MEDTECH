@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400&display=swap');
+
+.App {
+  text-align: center;
+  font-family: 'Montserrat Alternates', sans-serif;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.blockWeek{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+button{
+  background-color: transparent;
+  width: 100px;
+  height: 30px;
+  color: #eca603;
+  border:1px solid #eca603;
+  border-radius: 10px;
+  margin:5px;
+}
+.week{
+  display: flex;
+  flex-direction: row;
+}
