@@ -27,3 +27,15 @@ button{
   display: flex;
   flex-direction: row;
 }
+@media screen and (max-width: 768px) {
+  .week{
+    display: flex;
+    flex-direction: column;
+  }
+}
+.close.active{
+  display: block;
+}
+.close{
+  display: none;
+}
