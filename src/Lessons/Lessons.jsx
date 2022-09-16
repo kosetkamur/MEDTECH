@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import './Lessons.css'
 
 const Lessons = ({name, time, classroom}) => {
