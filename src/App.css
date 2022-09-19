@@ -10,7 +10,6 @@
 .blockWeek{
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
@@ -27,15 +26,27 @@ button{
   display: flex;
   flex-direction: row;
 }
+@media screen and (max-width: 1700px) {
+  .week{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .week{
     display: flex;
     flex-direction: column;
   }
 }
+
 .close.active{
   display: block;
 }
 .close{
   display: none;
+}
+*{
+  font-size: 1em;
 }
